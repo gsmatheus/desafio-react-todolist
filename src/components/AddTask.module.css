@@ -1,0 +1,51 @@
+.new_task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: -25px;
+}
+
+.new_task input {
+    width: 100%;
+    height: 54px;
+
+    background: var(--gray-500);
+    color: var(--gray-200);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+.new_task button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    padding: 0 1rem;
+    height: 52px;
+
+    background: var(--blue-dark);
+    border-radius: 8px;
+    border: none;
+
+    color: var(--gray-100);
+
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.new_task button[type="submit"]:not(:disabled):hover {
+    background: var(--blue-dark-100);
+}
+
+.new_task button[type="submit"]:disabled {
+    opacity: 0.9;
+    background: var(--blue-dark-200);
+    cursor: not-allowed;
+}

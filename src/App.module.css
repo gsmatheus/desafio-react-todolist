@@ -1,0 +1,38 @@
+main {
+    max-width: 763px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.taskHeader {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+
+.taskHeader p:first-child {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.taskHeader p:last-child {
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.taskHeader span {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+}
