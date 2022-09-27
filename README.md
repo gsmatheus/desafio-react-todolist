@@ -1,10 +1,5 @@
 <h1 align="center">
-Pomodoro Timer
+Todo
 </h1>
 
-![alt text](./Screenshot_1.png)
-
----
-
-![alt text](./Screenshot_2.png)
-
+![alt text](./images/print.png)
